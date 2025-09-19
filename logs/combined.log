@@ -8,3 +8,6 @@
 {"level":"info","message":"::1 - - [19/Sep/2025:20:06:48 +0000] \"POST /api/auth/signin HTTP/1.1\" 200 30 \"-\" \"PostmanRuntime/7.46.1\"","service":"acq-api"}
 {"level":"info","message":"naiome : Register successfully with Role : admin","service":"acq-api"}
 {"level":"info","message":"::1 - - [19/Sep/2025:21:23:52 +0000] \"POST /api/auth/signup HTTP/1.1\" 201 106 \"-\" \"PostmanRuntime/7.46.1\"","service":"acq-api"}
+{"level":"info","message":"user : naiome created successfully with role : admin","service":"acq-api"}
+{"level":"info","message":"naiome : Register successfully with Role : admin","service":"acq-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:21:41:40 +0000] \"POST /api/auth/signup HTTP/1.1\" 201 106 \"-\" \"PostmanRuntime/7.46.1\"","service":"acq-api"}
