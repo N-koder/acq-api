@@ -1,3 +1,10 @@
 {"level":"info","message":"get set go...","service":"acq-api"}
 {"level":"info","message":"::1 - - [18/Sep/2025:15:47:43 +0000] \"GET / HTTP/1.1\" 200 12 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acq-api"}
 {"level":"info","message":"::1 - - [18/Sep/2025:15:47:43 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acq-api"}
+{"level":"info","message":"get set go...","service":"acq-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:19:33:19 +0000] \"GET / HTTP/1.1\" 200 12 \"-\" \"PostmanRuntime/7.45.0\"","service":"acq-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:19:33:26 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.45.0\"","service":"acq-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:19:33:35 +0000] \"GET /api HTTP/1.1\" 200 28 \"-\" \"PostmanRuntime/7.45.0\"","service":"acq-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:20:06:48 +0000] \"POST /api/auth/signin HTTP/1.1\" 200 30 \"-\" \"PostmanRuntime/7.46.1\"","service":"acq-api"}
+{"level":"info","message":"naiome : Register successfully with Role : admin","service":"acq-api"}
+{"level":"info","message":"::1 - - [19/Sep/2025:21:23:52 +0000] \"POST /api/auth/signup HTTP/1.1\" 201 106 \"-\" \"PostmanRuntime/7.46.1\"","service":"acq-api"}

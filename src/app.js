@@ -7,6 +7,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 
+import authRoutes from '#routes/auth.routes.js';
 
 const app = express();
 
@@ -24,5 +25,15 @@ app.get('/' , (req ,res)=>{
   logger.info('get set go...');
   res.status(200).send('Hello world!');
 });
+
+app.get('/health' , (req , res) => {
+  res.status(200).json({status : 'ok' , timestamp : new Date().toISOString(), uptime : process.uptime() });
+})
+
+app.get('/api' , (req ,res)=>{
+  res.status(200).json({message : 'API running...'})
+})
+
+app.use('/api/auth' , authRoutes);
 
 export default app;
